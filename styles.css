@@ -1,0 +1,53 @@
+body {
+    background-color: #d4f7d4;
+    font-family: sans-serif, Cambria;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #a64ca6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.1s;
+}
+
+.button:hover {
+    background-color: #922d92;
+}
+
+.button:active {
+    transform: scale(0.95);
+    background-color: #7a1e7a;
+}
+
+#image-canvas {
+    width: 500px; /* Dimensiunea afișată */
+    height: 500px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#timing-display {
+    margin-top: 20px;
+    text-align: left;
+}
